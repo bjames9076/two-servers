@@ -26,11 +26,11 @@ var server_02 = http.createServer(handleRequest_02);
 server_01.listen(PORT_01, function() {
 
   // Log (server-side) when our server has started
-  console.log("Server listening on: http://localhost:" + PORT);
+  console.log("Server listening on: http://localhost:" + PORT_01);
 });
 
 server_02.listen(PORT_02, function() {
     
       // Log (server-side) when our server has started
-      console.log("Server listening on: http://localhost:" + PORT);
+      console.log("Server listening on: http://localhost:" + PORT_02);
     });
