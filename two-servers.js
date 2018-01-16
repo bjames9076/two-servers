@@ -26,11 +26,11 @@ var server_02 = http.createServer(handleRequest_02);
 server_01.listen(PORT_01, function() {
 
   // Log (server-side) when our server has started
-  console.log("You are beautiful!");
+  console.log("You are beautiful");
 });
 
 server_02.listen(PORT_02, function() {
     
       // Log (server-side) when our server has started
-      console.log("You smell");
+      console.log("you smell");
     });
